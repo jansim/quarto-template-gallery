@@ -1,0 +1,22 @@
+<section id="$idprefix$title-slide"$for(title-slide-attributes/pairs)$ $it.key$="$it.value$"$endfor$ class="quarto-title-block bergluft-title">
+<div class="bergluft-title-block">
+$if(date)$
+<p class="bergluft-eyebrow">$date$$if(venue)$ · $venue$$endif$</p>
+$endif$
+<h1 class="title">$title$</h1>
+$if(subtitle)$
+<p class="subtitle">$subtitle$</p>
+$endif$
+<div class="bergluft-meta">
+$for(by-author)$
+<span class="bergluft-author">$if(by-author.url)$<a href="$by-author.url$">$endif$$by-author.name.literal$$if(by-author.url)$</a>$endif$</span>
+$for(by-author.affiliations)$
+<span class="bergluft-affiliation">$it.name$</span>
+$endfor$
+$endfor$
+$if(date)$
+<span class="bergluft-date">$date$</span>
+$endif$
+</div>
+</div>
+</section>

@@ -84,6 +84,7 @@ runs with `actions/cache`, and deploys `_site/` to GitHub Pages.
 
 ```
 templates.toml   the collection
+templates/       templates that live in this repo (e.g. bergluft)
 samples/         sample documents rendered by the built-in formats
 build.py         render + thumbnail + site build
 site/            static site (plain HTML/CSS/JS); data is inlined at build time

@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 232" width="680" height="464" role="img" aria-label="Elevation along the trail">
+<path d="M0,200 C30,196 45,170 70,168 C98,166 110,180 132,150 C150,126 160,92 186,90 C210,88 220,120 240,112 C262,104 272,60 296,58 C318,56 330,92 340,110 L340,231 L0,231 Z" fill="#2F4A3C" fill-opacity="0.12"/>
+<path d="M0,200 C30,196 45,170 70,168 C98,166 110,180 132,150 C150,126 160,92 186,90 C210,88 220,120 240,112 C262,104 272,60 296,58 C318,56 330,92 340,110" fill="none" stroke="#2F4A3C" stroke-width="1.5"/>
+<path d="M0,231.5 H340" stroke="#8A928B" stroke-width="1"/>
+</svg>

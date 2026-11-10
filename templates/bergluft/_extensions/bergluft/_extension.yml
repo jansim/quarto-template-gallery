@@ -1,0 +1,24 @@
+title: Bergluft
+author: Jan Simson
+version: 0.1.0
+quarto-required: ">=1.4.0"
+contributes:
+  formats:
+    revealjs:
+      theme: [default, bergluft.scss]
+      template-partials:
+        - title-slide.html
+      filters:
+        - bergluft.lua
+      width: 1050
+      height: 700
+      margin: 0
+      center: false
+      slide-number: true
+      progress: true
+      transition: fade
+      transition-speed: fast
+      background-transition: fade
+      code-copy: true
+      title-slide-style: default
+      bergluft-title: contours
