@@ -41,6 +41,7 @@ format:
 | `[one phrase]{.blaze}` | A soft marker under one key phrase |
 | `::: {.fieldnote}` | A slightly tilted sheet of lined paper (`label="…"` changes its heading) |
 | `::: {.callout-grid}` | Lays callouts (or anything) out in three columns |
+| `` `markup`{.syntax} `` / `::: {.syntax}` | Shows a slide's markup: a small mono label inline, or pinned to the top-right corner |
 | `## Thank you {.summit}` | Dark closing slide with ridgelines |
 | `## Title {.bottom-mountains-1}` | Pale silhouettes behind a slide; also `.bottom-mountains-2`, `.bottom-trees-1`, `.bottom-trees-2`, `.right-tree-1` |
 

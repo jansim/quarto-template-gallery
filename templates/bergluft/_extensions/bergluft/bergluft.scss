@@ -1269,7 +1269,7 @@ $berg-callouts: (
 .reveal .slides section .trail-north {
   position: absolute;
   right: $slide-pad-x;
-  top: 76px;
+  top: 120px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -1283,4 +1283,59 @@ $berg-callouts: (
 .reveal .slides section.bergluft-bigsign {
   height: 700px;
   overflow: hidden;
+}
+
+// ---------------------------------------------------------------- .syntax: show the markup behind a slide
+
+// `## Title {.summit}`{.syntax}: a small mono label on its own line
+.reveal code.syntax {
+  display: block;
+  margin: 0 0 10px;
+  padding: 0;
+  background: none;
+  font-family: $font-family-monospace;
+  font-size: 12px;
+  line-height: 1.5;
+  color: $berg-ink-soft;
+  white-space: pre-wrap;
+}
+
+// ::: {.syntax}: the same label, pinned to the slide's top-right corner
+.reveal .slides section div.syntax {
+  position: absolute;
+  top: 78px;
+  right: $slide-pad-x;
+  z-index: 2;
+  max-width: 460px;
+  text-align: right;
+}
+
+.reveal .slides section div.syntax p {
+  margin: 0;
+  font-family: $font-family-monospace;
+  font-size: 12px;
+  line-height: 1.5;
+  color: $berg-ink-soft;
+}
+
+.reveal .slides section div.syntax code {
+  padding: 0;
+  background: none;
+  font-family: $font-family-monospace;
+  font-size: 12px;
+  color: $berg-ink-soft;
+}
+
+.reveal .slides section.bergluft-section div.syntax p,
+.reveal .slides section.bergluft-summit div.syntax p,
+.reveal .slides section.bergluft-section div.syntax code,
+.reveal .slides section.bergluft-summit div.syntax code,
+.reveal .slides section.bergluft-section code.syntax,
+.reveal .slides section.bergluft-summit code.syntax {
+  color: $berg-night-muted;
+}
+
+.reveal div.callout code.syntax {
+  margin: 0;
+  color: $berg-muted;
 }

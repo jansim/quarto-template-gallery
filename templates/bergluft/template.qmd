@@ -15,20 +15,32 @@ format:
 
 ## Overview
 
+::: {.syntax}
+`::: {.trail}`
+:::
+
 ::: {.trail}
 - Introduction
 - Background
 - Methods
 - Results
 - Discussion
-- Questions
+- Kaiserschmarrn
 :::
 
 # Into the woods
 
+::: {.syntax}
+`# Into the woods`
+:::
+
 Level-one headings open a new section on a dark contour map.
 
 ## Lists, columns & fragments
+
+::: {.syntax}
+`:::: {.columns}` · `::: {.column}`
+:::
 
 :::: {.columns}
 
@@ -41,6 +53,8 @@ Level-one headings open a new section on a dark contour map.
 :::
 
 ::: {.column}
+`::: {.incremental}`{.syntax}
+
 ::: {.incremental}
 1. Start at the trailhead
 2. Follow the markers
@@ -56,6 +70,8 @@ Level-one headings open a new section on a dark contour map.
 :::: {.columns}
 
 ::: {.column width="58%"}
+`` ```{.r filename="elevation.R" code-line-numbers="3-4"} ``{.syntax}
+
 ```{.r filename="elevation.R" code-line-numbers="3-4"}
 library(ggplot2)
 
@@ -67,6 +83,8 @@ ggplot(trail, aes(distance, elevation)) +
 :::
 
 ::: {.column width="42%"}
+`![caption](images/elevation.svg)`{.syntax}
+
 ![Highlighted lines stay full strength; the rest step back.](images/elevation.svg){fig-alt="An elevation profile rising towards the right"}
 :::
 
@@ -74,36 +92,54 @@ ggplot(trail, aes(distance, elevation)) +
 
 ## Callouts
 
+::: {.syntax}
+`::: {.callout-grid}`
+:::
+
 ::: {.callout-grid}
 
 ::: {.callout-note}
 ## Note
 Context worth a pause, in lake blue.
+
+`::: {.callout-note}`{.syntax}
 :::
 
 ::: {.callout-tip}
 ## Tip
 A shortcut or a better route, in moss.
+
+`::: {.callout-tip}`{.syntax}
 :::
 
 ::: {.callout-warning}
 ## Warning
 Loose ground ahead, in ochre.
+
+`::: {.callout-warning}`{.syntax}
 :::
 
 ::: {.callout-important}
 ## Important
 The one thing to take home, in pine.
+
+`::: {.callout-important}`{.syntax}
 :::
 
 ::: {.callout-caution}
 ## Caution
 Trail closed; this can break things.
+
+`::: {.callout-caution}`{.syntax}
 :::
 
 :::
 
 ## Tables & figures
+
+::: {.syntax}
+`: caption` · `[^1]` · `::: {.aside}`
+:::
 
 :::: {.columns}
 
@@ -132,13 +168,17 @@ An aside sits in the margin.
 
 ## Overview
 
+::: {.syntax}
+`::: {.trail-profile}` · `[Results]{.here}`
+:::
+
 ::: {.trail-profile}
 - Introduction
 - Background
 - Methods
 - [Results]{.here}
 - Discussion
-- Questions
+- Kaiserschmarrn
 :::
 
 ## Marks & notes
@@ -146,7 +186,11 @@ An aside sits in the margin.
 :::: {.columns}
 
 ::: {.column}
+`[Results]{.sign} · [Methods]{.sign .back}`{.syntax}
+
 Next stop: [Results]{.sign}, then [Discussion]{.sign}. Lost the thread? Head back to [Methods]{.sign .back}.
+
+`::: {.signpost .small}`{.syntax}
 
 ::: {.signpost .small}
 - [Slides](https://quarto.org/docs/presentations/revealjs/){time="2 min" level="easy"}
@@ -156,6 +200,8 @@ Next stop: [Results]{.sign}, then [Discussion]{.sign}. Lost the thread? Head bac
 :::
 
 ::: {.column}
+`::: {.fieldnote} · [phrase]{.blaze}`{.syntax}
+
 ::: {.fieldnote}
 An observation, a side story or a takeaway. A [blaze marks the one phrase]{.blaze} people should follow.
 :::
@@ -164,6 +210,10 @@ An observation, a side story or a takeaway. A [blaze marks the one phrase]{.blaz
 ::::
 
 ## Where to next
+
+::: {.syntax}
+`::: {.signpost}` · `[Docs](url){time="5 min" level="easy"}`
+:::
 
 ::: {.signpost}
 - [Documentation](https://quarto.org/docs/presentations/revealjs/){time="5 min" level="easy"}
@@ -179,12 +229,22 @@ An observation, a side story or a takeaway. A [blaze marks the one phrase]{.blaz
 
 An alternative section header: the heading is the sign, with an optional time and difficulty.
 
+`# Results {.signpost .big time="20 min" level="moderate"}`{.syntax}
+
 ## A slide with a view {.bottom-mountains-1}
+
+::: {.syntax}
+`## A slide with a view {.bottom-mountains-1}`
+:::
 
 - Any ordinary slide can take one class
 - The silhouette stays pale and behind the content
 - Use it to break up a long run of text slides
 
 ## Thank you {.summit}
+
+::: {.syntax}
+`## Thank you {.summit}`
+:::
 
 [quarto.org](https://quarto.org) · [@quarto_pub](https://fosstodon.org/@quarto)
