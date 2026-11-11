@@ -200,10 +200,10 @@ Next stop: [Results]{.sign}, then [Discussion]{.sign}. Lost the thread? Head bac
 :::
 
 ::: {.column}
-`::: {.fieldnote} · [phrase]{.blaze}`{.syntax}
+`::: {.fieldnote} · [phrase]{.underline}`{.syntax}
 
 ::: {.fieldnote}
-An observation, a side story or a takeaway. A [blaze marks the one phrase]{.blaze} people should follow.
+An observation, a side story or a takeaway. An [underline marks the one phrase]{.underline} people should follow.
 :::
 :::
 

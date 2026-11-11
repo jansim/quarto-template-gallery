@@ -38,7 +38,7 @@ format:
 | `::: {.signpost .small}` | A smaller signpost that sits in a column |
 | `[Results]{.sign}`, `[Methods]{.sign .back}` | Inline signs pointing ahead or back |
 | `[hard]{.difficult}`, `.moderate`, `.easy` | Trail-grade dots (black, red, blue) |
-| `[one phrase]{.blaze}` | A soft marker under one key phrase |
+| `[one phrase]{.underline}` | A soft marker under one key phrase (instead of a plain underline) |
 | `::: {.fieldnote}` | A slightly tilted sheet of lined paper (`label="…"` changes its heading) |
 | `::: {.callout-grid}` | Lays callouts (or anything) out in three columns |
 | `` `markup`{.syntax} `` / `::: {.syntax}` | Shows a slide's markup: a small mono label inline, or pinned to the top-right corner |
