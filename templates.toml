@@ -175,6 +175,12 @@ title = "Brutalist Pop"
 repo = "jansim/quarto-revealjs-themes"
 format = "pop-revealjs"
 
+[bergluft]
+# Outdoors calm: contour maps, ridgelines and yellow alpine trail signs on survey paper.
+title = "Bergluft"
+repo = "jansim/quarto-revealjs-themes"
+format = "bergluft-revealjs"
+
 # --- nmfs-opensci/quarto_titlepages -----------------------------------------
 
 [titlepage-great-wave]
